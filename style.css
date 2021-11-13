@@ -1,0 +1,96 @@
+tr{
+    gap:20px;
+}
+img{
+    width: auto;
+    height: 100vh;
+}
+body{
+    margin-left: 0px;
+    padding: 0;
+   background-size: cover ;
+  background-position: center;
+  background-color:rgb(150, 121, 105) ;
+}
+.eat{
+    
+    margin: 100px 250px;
+    /* border: 2px solid black; */
+  background-color: #b8e9ee;
+ border-radius: 9px;
+   
+}
+input[type="text"]{
+  border: 2px solid black;
+  height: 25px;
+}
+sup {
+font-size: 1rem;
+color: red;
+}
+.eqa{
+font-weight: bold;
+}
+.ert{
+height: 20px;
+width: 350px;
+
+}
+.star-icon {
+display: flex;
+
+}
+.rating-css div {
+color: #ffe400; 
+/* color: #838383; */
+gap: 0.3em;
+font-family: sans-serif;
+
+text-transform: uppercase;
+padding: 20px 0;
+}
+.rating-css input {
+display: none;
+}
+.rating-css input + label {
+  
+/* text-shadow: 1px 1px 0 #838383; */
+cursor: pointer;
+}
+.rating-css input:checked + label ~ label {
+color: #838383;
+/* color: #ffe400; */
+}
+.rating-css label:active {
+transform: scale(0.8);
+transition: 0.3s ease;
+}
+
+a {
+position: absolute;
+bottom: 20px;
+font-weight: 600;
+text-decoration: none;
+font-size: 20px;
+font-family: sans-serif;
+right: 20px;
+color: #000;
+}
+a:hover {
+color: red;
+}
+
+div{
+padding: 6px;
+}
+th{
+  padding-right: 50px;
+}
+textarea{
+  height: 70px;
+  width: 100%;
+}
+.ewr{
+  display: flex;
+  margin-left: 47%;
+}
